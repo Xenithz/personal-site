@@ -1,0 +1,10 @@
+.intro-svg {
+    height: 40em;
+    width: 40em;
+}
+
+.intro-svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+.intro-information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em;
+}
+
+.intro-information-name {
+    font-size: 200%;
+    align-self: flex-start;
+}
+
+.intro-information-box {
+    background: linear-gradient(90deg,#9089FF,#4A00E0);
+    min-width: 45vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro-information-box-name {
+    font-size: 270%;
+    padding: 0.70em 0.70em;
+}
+
+.line {
+    background: #fff;
+    min-width: 2px;
+    margin: 0 1vmax;
+}
+
+.intro-information-box-extra {
+    display: flex;
+    padding: 0.85em 0.85em;
+    font-size: 125%;
+}
+
+.intro-info-box-extra-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* font-size: 125%; */
+}
+
+/* #dubai {
+    font-size: 125%;
+} */
+
+.intro-info-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 45vw;
+}
+
+.logo-svg {
+    height: 3em;
+    width: 3em;
+    padding-top: 1em;
+    padding-left: 0.75em;
+}
