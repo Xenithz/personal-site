@@ -6,7 +6,7 @@ import EmailLogo from './iconmonstr-email-10.svg';
 import { motion } from 'framer-motion';
 import { socials } from '../motion-variants/socials-variant';
 
-function IntroInformation() {
+export const IntroInformation = () => {
     return (
         <motion.div className="intro-information-container" 
         initial={{
@@ -48,5 +48,3 @@ function IntroInformation() {
         </motion.div>
     );
 }
-
-export default IntroInformation;

@@ -9,6 +9,7 @@
 .intro-information-name {
     font-size: 200%;
     align-self: flex-start;
+    color: #3F3D56;
 }
 
 .intro-information-box {
@@ -41,12 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* font-size: 125%; */
 }
-
-/* #dubai {
-    font-size: 125%;
-} */
 
 .intro-info-links-container {
     display: flex;

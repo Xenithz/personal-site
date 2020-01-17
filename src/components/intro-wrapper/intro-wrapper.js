@@ -1,9 +1,9 @@
 import React from 'react';
 import './intro-wrapper.css'
-import IntroSvg from '../intro-svg/intro-svg';
-import IntroInformation from '../intro-information/intro-information';
+import { IntroSvg } from '../intro-svg/intro-svg';
+import { IntroInformation } from '../intro-information/intro-information';
 
-function IntroWrapper() {
+export const IntroWrapper = () => {
     return (
         <div className="intro-wrapper">
             <IntroInformation />
@@ -11,5 +11,3 @@ function IntroWrapper() {
         </div>
     );
 }
-
-export default IntroWrapper;
