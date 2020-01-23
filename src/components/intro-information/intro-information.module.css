@@ -13,12 +13,13 @@
 }
 
 .introInformationBox {
-    background: linear-gradient(90deg,#9089FF,#4A00E0);
+    background: linear-gradient(135deg, #ffa942, #f1592b 50%, #e70c8d);
     min-width: 45vw;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: 36px 12px 12px;
 }
 
 .introInformationBoxName{

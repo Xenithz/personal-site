@@ -1,0 +1,35 @@
+.navWrapper {
+    position: sticky;
+    top: 0px;
+    background-color: #FEA240;
+    border-radius: 0px 0px 30px 12px;
+}
+
+.navHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    width: 100%;
+    margin: auto;
+}
+
+.homeSVG {
+    height: 4rem;
+    width: 6%;
+    padding: 1rem;
+}
+
+.navLinks {
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.link {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: white;
+}
