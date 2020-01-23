@@ -1,9 +1,9 @@
-.intro-svg {
+.introSVG {
     height: 40em;
     width: 40em;
 }
 
-.intro-svg-container {
+.introSVGContainer {
     display: flex;
     justify-content: center;
     align-items: center;

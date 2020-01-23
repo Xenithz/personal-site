@@ -1,5 +1,5 @@
 import React from 'react';
-import './intro-information.css';
+import styles from './intro-information.module.css';
 import GithubLogo from './github.svg';
 import LinkedinLogo from './iconmonstr-linkedin-4.svg';
 import EmailLogo from './iconmonstr-email-10.svg';
@@ -8,7 +8,7 @@ import { socials } from '../motion-variants/socials-variant';
 
 export const IntroInformation = () => {
     return (
-        <motion.div className="intro-information-container" 
+        <motion.div className={styles.introInformationContaier} 
         initial={{
             opacity: 0,
             x: '-100%'
@@ -21,28 +21,28 @@ export const IntroInformation = () => {
             delay: 0.75
         }}
         >
-            <div className="intro-information-name">Hi I'm</div>
-            <div className="intro-information-box">
-                <div className="intro-information-box-name">Angelo Guerrero</div>
-                <div className="intro-information-box-extra">
-                    <div id="dubai">Dubai</div>
-                    <div className="line"></div>
-                    <div className="intro-info-box-extra-desc">
+            <div className={styles.introInformationName}>Hi I'm</div>
+            <div className={styles.introInformationBox}>
+                <div className={styles.introInformationBoxName}>Angelo Guerrero</div>
+                <div className={styles.introInformationBoxExtra}>
+                    <div>Dubai</div>
+                    <div className={styles.line}></div>
+                    <div className={styles.introInfoBoxExtraDesc}>
                         <div>Software Developer</div>
                         <div>Traveller</div>
                         <div>Activist</div>
                     </div>
                 </div>
             </div>
-            <div className="intro-info-links-container">
+            <div className={styles.introInfoLinksContainer}>
                 <motion.a href="https://github.com/Xenithz" target="_blank" rel="noopener noreferrer" variants={socials} whileHover="whileHover" whileTap="whileTap">
-                    <img src={GithubLogo} alt="swag" className="logo-svg"></img>
+                    <img src={GithubLogo} alt="swag" className={styles.logoSVG}></img>
                 </motion.a>
                 <motion.a href="https://www.linkedin.com/in/amcgdev/" target="_blank" rel="noopener noreferrer" variants={socials} whileHover="whileHover" whileTap="whileTap">
-                    <img src={LinkedinLogo} alt="swag" className="logo-svg"></img>
+                    <img src={LinkedinLogo} alt="swag" className={styles.logoSVG}></img>
                 </motion.a>
                 <motion.a href="mailto:amcgdev@gmail.com" target="_blank" rel="noopener noreferrer" variants={socials} whileHover="whileHover" whileTap="whileTap">
-                    <img src={EmailLogo} alt="swag" className="logo-svg"></img>
+                    <img src={EmailLogo} alt="swag" className={styles.logoSVG}></img>
                 </motion.a>
             </div>
         </motion.div>

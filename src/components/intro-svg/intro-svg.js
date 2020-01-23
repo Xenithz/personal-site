@@ -1,11 +1,11 @@
 import React from 'react';
 import Logo from './undraw_code_thinking_1jeh.svg';
-import './intro-svg.css';
+import styles from './intro-svg.module.css';
 import { motion } from 'framer-motion';
 
 export const IntroSvg = () => {
     return (
-        <motion.div className="intro-svg-container" 
+        <motion.div className={styles.introSVGContainer} 
         initial={{
             opacity: 0,
             y: '-100%'
@@ -25,7 +25,7 @@ export const IntroSvg = () => {
             bottom: 0 
         }}
         >
-            <img src={Logo} alt="swag" className="intro-svg"></img>
+            <img src={Logo} alt="swag" className={styles.introSVG}></img>
         </motion.div>
     );
 }

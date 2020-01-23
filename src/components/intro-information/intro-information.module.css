@@ -1,4 +1,4 @@
-.intro-information-container {
+.introInformationContaier {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,13 +6,13 @@
     padding: 4em;
 }
 
-.intro-information-name {
+.introInformationName {
     font-size: 200%;
     align-self: flex-start;
     color: #3F3D56;
 }
 
-.intro-information-box {
+.introInformationBox {
     background: linear-gradient(90deg,#9089FF,#4A00E0);
     min-width: 45vw;
     color: white;
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.intro-information-box-name {
+.introInformationBoxName{
     font-size: 270%;
     padding: 0.70em 0.70em;
 }
@@ -32,26 +32,26 @@
     margin: 0 1vmax;
 }
 
-.intro-information-box-extra {
+.introInformationBoxExtra {
     display: flex;
     padding: 0.85em 0.85em;
     font-size: 125%;
 }
 
-.intro-info-box-extra-desc {
+.introInfoBoxExtraDesc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.intro-info-links-container {
+.introInfoLinksContainer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     min-width: 45vw;
 }
 
-.logo-svg {
+.logoSVG {
     height: 3em;
     width: 3em;
     padding-top: 1em;
