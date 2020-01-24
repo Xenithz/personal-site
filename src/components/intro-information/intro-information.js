@@ -8,7 +8,7 @@ import { socials } from '../motion-variants/socials-variant';
 
 export const IntroInformation = () => {
     return (
-        <motion.div className={styles.introInformationContaier} 
+        <motion.div className={styles.introInformationContainer} 
         initial={{
             opacity: 0,
             x: '-100%'

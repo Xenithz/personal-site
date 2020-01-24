@@ -3,6 +3,7 @@
     top: 0px;
     background-color: #FEA240;
     border-radius: 0px 0px 30px 12px;
+    z-index: 100;
 }
 
 .navHeader {
