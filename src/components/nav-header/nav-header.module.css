@@ -1,28 +1,27 @@
 .navWrapper {
-    position: sticky;
-    top: 0px;
+    position: fixed;
     background-color: #FEA240;
     border-radius: 0px 0px 30px 12px;
     z-index: 100;
+    min-height: 5vh;
+    width: 100%;
 }
 
 .navHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 10vh;
-    width: 100%;
-    margin: auto;
+    margin: 0.10rem;
 }
 
 .homeSVG {
-    height: 4rem;
+    height: 2.5rem;
     width: 100%;
     padding: 1rem;
 }
 
 .navLinks {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     list-style: none;
     display: flex;
     flex: 1;
@@ -33,4 +32,10 @@
     margin-left: 3rem;
     margin-right: 3rem;
     color: white;
+    padding: 0.75rem;
+    border-radius: 12px;
+}
+
+.routerLink {
+    text-decoration: none;
 }

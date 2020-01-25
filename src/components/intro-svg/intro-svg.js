@@ -8,21 +8,14 @@ export const IntroSvg = () => {
         <motion.div className={styles.introSVGContainer} 
         initial={{
             opacity: 0,
-            y: '-100%'
+            y: '-100vh'
         }}
         animate={{
             opacity:1,
-            y: '0%'
+            y: '0vh'
         }}
         transition={{ 
             delay: 1
-        }}
-        drag
-        dragConstraints={{ 
-            left: 0, 
-            right: 0,
-            top: 0,
-            bottom: 0 
         }}
         >
             <img src={Logo} alt="swag" className={styles.introSVG}></img>

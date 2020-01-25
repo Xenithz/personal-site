@@ -11,11 +11,11 @@ export const IntroInformation = () => {
         <motion.div className={styles.introInformationContainer} 
         initial={{
             opacity: 0,
-            x: '-100%'
+            x: '-100vw'
         }}
         animate={{
             opacity:1,
-            x: '0%'
+            x: '0vw'
         }}
         transition={{ 
             delay: 0.75
