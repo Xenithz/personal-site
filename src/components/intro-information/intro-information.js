@@ -5,22 +5,11 @@ import LinkedinLogo from './iconmonstr-linkedin-4.svg';
 import EmailLogo from './iconmonstr-email-10.svg';
 import { motion } from 'framer-motion';
 import { socials } from '../motion-variants/socials-variant';
+import { lefty } from '../motion-variants/left-content-variant';
 
 export const IntroInformation = () => {
     return (
-        <motion.div className={styles.introInformationContainer} 
-        initial={{
-            opacity: 0,
-            x: '-100vw'
-        }}
-        animate={{
-            opacity:1,
-            x: '0vw'
-        }}
-        transition={{ 
-            delay: 0.75
-        }}
-        >
+        <motion.div className={styles.introInformationContainer} initial="initial" animate="animate" transition={{delay: 0.75}} variants={lefty}>
             <div className={styles.introInformationName}>Hi I'm</div>
             <div className={styles.introInformationBox}>
                 <div className={styles.introInformationBoxName}>Angelo Guerrero</div>

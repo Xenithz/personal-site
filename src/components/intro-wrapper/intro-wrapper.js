@@ -2,12 +2,15 @@ import React from 'react';
 import styles from './intro-wrapper.module.css'
 import { IntroSvg } from '../intro-svg/intro-svg';
 import { IntroInformation } from '../intro-information/intro-information';
+import { motion } from 'framer-motion';
 
 export const IntroWrapper = () => {
     return (
-        <div className={styles.introWrapper}>
+        <motion.div className={styles.introWrapper} exit={{
+            x: '100vw'
+        }}>
             <IntroInformation />
             <IntroSvg />
-        </div>
+        </motion.div>
     );
 }
