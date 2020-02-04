@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 7rem;
+    width: 45%;
+    align-self: center;
 }
 
 .introInformationName {

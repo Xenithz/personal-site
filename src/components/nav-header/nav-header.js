@@ -18,7 +18,7 @@ export const NavHeader = () => {
             x: '0vw'
         }}
         transition={{ 
-            delay: 1.5
+            delay: 0.75
         }}>
             <div className={styles.navHeader}>
                 <Link to="/">

@@ -1,6 +1,7 @@
 .introWrapper {
     display: flex;
     align-content: center;
+    flex-direction: column;
     justify-content: space-evenly;
     min-height: 100vh;
     text-align: left;

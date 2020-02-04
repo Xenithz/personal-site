@@ -9,8 +9,8 @@ export const IntroWrapper = () => {
         <motion.div className={styles.introWrapper} exit={{
             x: '100vw'
         }}>
-            <IntroInformation />
             <IntroSvg />
+            <IntroInformation />
         </motion.div>
     );
 }

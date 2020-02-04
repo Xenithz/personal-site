@@ -9,7 +9,7 @@ import { lefty } from '../motion-variants/left-content-variant';
 
 export const IntroInformation = () => {
     return (
-        <motion.div className={styles.introInformationContainer} initial="initial" animate="animate" transition={{delay: 0.75}} variants={lefty}>
+        <motion.div className={styles.introInformationContainer} initial="initial" animate="animate" transition={{delay: 1.25}} variants={lefty}>
             <div className={styles.introInformationName}>Hi I'm</div>
             <div className={styles.introInformationBox}>
                 <div className={styles.introInformationBoxName}>Angelo Guerrero</div>
