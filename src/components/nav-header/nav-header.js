@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from './nav-header.module.css';
 import HomeIcon from './iconmonstr-home-2.svg';
+import pdf from './guerrero_a_resume.pdf';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { navLinks } from '../motion-variants/nav-links-variant';
 import { socials } from '../motion-variants/socials-variant';
 
 export const NavHeader = () => {
+    const resumeHandleClick = () => {
+        window.open(pdf);
+    };
+
     return (
         <motion.div className={styles.navWrapper} 
         initial={{
@@ -31,6 +36,9 @@ export const NavHeader = () => {
                     {/* <Link className={styles.routerLink} to="/moveandchar">
                         <motion.li className={styles.link} variants={navLinks} whileHover="whileHover" whileTap="whileTap">Movements & Charities</motion.li> 
                     </Link> */}
+                    <div className={styles.routerLink}>
+                    <motion.li className={styles.link} variants={navLinks} whileHover="whileHover" whileTap="whileTap" onClick={resumeHandleClick}>Resume</motion.li> 
+                    </div>
                 </ul>
             </div>
         </motion.div>
