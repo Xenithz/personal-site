@@ -28,9 +28,9 @@ export const NavHeader = () => {
                     <Link className={styles.routerLink} to="/aboutme">
                         <motion.li className={styles.link} variants={navLinks} whileHover="whileHover" whileTap="whileTap">About Me</motion.li>
                     </Link>
-                    <Link className={styles.routerLink} to="/moveandchar">
+                    {/* <Link className={styles.routerLink} to="/moveandchar">
                         <motion.li className={styles.link} variants={navLinks} whileHover="whileHover" whileTap="whileTap">Movements & Charities</motion.li> 
-                    </Link>
+                    </Link> */}
                 </ul>
             </div>
         </motion.div>
