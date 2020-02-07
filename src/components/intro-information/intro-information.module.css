@@ -21,6 +21,9 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 36px 12px 12px;
+    -webkit-box-shadow: 10px 9px 26px -6px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 9px 26px -6px rgba(0,0,0,0.55);
+    box-shadow: 10px 9px 26px -6px rgba(0,0,0,0.55);
 }
 
 .introInformationBoxName{

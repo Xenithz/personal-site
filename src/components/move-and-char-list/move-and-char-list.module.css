@@ -1,5 +1,5 @@
 .listContainer {
-    background: linear-gradient(135deg, #ffa942, #f1592b 50%, #e70c8d);
+    background: #ffa942;
     min-width: 20vw;
     color: white;
     display: flex;
@@ -7,6 +7,10 @@
     justify-content: space-between;
     border-radius: 36px 12px 12px;
     padding: 2rem;
+    -webkit-box-shadow: 10px 9px 26px -6px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 9px 26px -6px rgba(0,0,0,0.55);
+    box-shadow: 10px 9px 26px -6px rgba(0,0,0,0.55);
+    margin: 1em;
 }
 
 .charMoveList {
